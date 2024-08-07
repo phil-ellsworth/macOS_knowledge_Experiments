@@ -10,3 +10,6 @@ DEST_DIR="."
 
 # Use rsync to sync the file from source to destination
 rsync -avhP "$SOURCE" "$DEST_DIR"
+
+# Run the merge_db.sh Script
+./merged_db.sh
