@@ -12,4 +12,4 @@ DEST_DIR="."
 rsync -avhP "$SOURCE" "$DEST_DIR"
 
 # Run the merge_db.sh Script
-./merged_db.sh
+./merged_dbs.sh
